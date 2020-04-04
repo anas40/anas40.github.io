@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+canvas {
+    background: url(./playground.svg) center center;
+    background-size: cover;
+    border-radius: 5px;
+    border-top: black 5px solid;
+    border-bottom: black 5px solid;
+
+}
+
+body {
+    /* justify-content and align-items interchange when flex direction column */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(rgb(45, 160, 255), pink) no-repeat;
+    background-size: 300% 300%;
+    animation-name: background-animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+body>div {
+    width: calc(100% / 1.8);
+    display: flex;
+    justify-content: space-around;
+}
+
+#player1,
+#player2,p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+span {
+    color: red;
+    padding: 20px;
+}
+
+@keyframes background-animation{
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}

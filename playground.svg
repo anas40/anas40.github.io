@@ -1,0 +1,12 @@
+<svg width="1310" height="750" viewBox="0 0 1310 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1310" height="750" fill="#E5E5E5"/>
+<g id="iMac - 1">
+<rect x="7.5" y="7.5" width="1295" height="735" fill="#7FFFD4"/>
+<circle id="Ellipse 1" cx="655" cy="375" r="200" stroke="black" stroke-width="12"/>
+<circle id="Ellipse 2" cx="655" cy="375" r="20" fill="black"/>
+<line id="Line 1" x1="656" y1="15" x2="656" y2="735" stroke="black" stroke-width="12"/>
+<!-- <rect x="7.5" y="7.5" width="1295" height="735" stroke="black" stroke-width="15" stroke-linejoin="round"/> -->
+</g>
+<line id="Line 3" x1="1302.5" y1="5" x2="1302.5" y2="745" stroke="#7FFFD4" stroke-width="17"/>
+<line id="Line 2" x1="7.5" y1="5" x2="7.5" y2="745" stroke="#7FFFD4" stroke-width="17"/>
+</svg>
